@@ -73,6 +73,14 @@ Listen to our AI-generated music:
 
 Dataset Link: https://www.kaggle.com/datasets/soumikrakshit/classical-music-midi/data
 
+##  How to Play MIDI Files
+
+The generated .mid files can be played using:
+- Online: Signal MIDI Player (https://signal.vercel.app/edit) or (https://cifkao.github.io/html-midi-player/)
+- Windows: Windows Media Player, VLC (https://www.videolan.org/)
+- Mac: GarageBand, QuickTime
+- Mobile: Various MIDI player apps
+
 ## Dependencies
 
 - music21>=7.0.0
@@ -119,15 +127,6 @@ Install all dependencies with: pip install -r requirements.txt
 | Sequence Length | 100 notes |
 | Hardware | Google Colab GPU |
 | Training Time | ~1-3 hours |
-
-
-##  How to Play MIDI Files
-
-The generated .mid files can be played using:
-- Online: Signal MIDI Player (https://signal.vercel.app/edit) or (https://cifkao.github.io/html-midi-player/)
-- Windows: Windows Media Player, VLC (https://www.videolan.org/)
-- Mac: GarageBand, QuickTime
-- Mobile: Various MIDI player apps
 
 ## License
 
